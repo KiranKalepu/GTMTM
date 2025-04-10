@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-10T12:46:28 IST" name="ParallelMethodsSuite" finished-at="2025-04-10T12:46:34 IST" duration-ms="6566">
+    <groups>
+    </groups>
+    <test started-at="2025-04-10T12:46:28 IST" name="MicrosoftLoginParallelTest" finished-at="2025-04-10T12:46:34 IST" duration-ms="6566">
+      <class name="GTMTM.TestSuite.testClasses.MicrosoftLoginTest">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:GTMTM.TestSuite.testClasses.MicrosoftLoginTest@2cac4385]" started-at="2025-04-10T12:46:28 IST" name="initializeDriver" finished-at="2025-04-10T12:46:29 IST" duration-ms="1120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:GTMTM.TestSuite.testClasses.MicrosoftLoginTest@2cac4385]" started-at="2025-04-10T12:46:28 IST" name="initializeDriver" finished-at="2025-04-10T12:46:29 IST" duration-ms="1119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="microsoftDispatchLoginTest()[pri:0, instance:GTMTM.TestSuite.testClasses.MicrosoftLoginTest@2cac4385]" started-at="2025-04-10T12:46:29 IST" name="microsoftDispatchLoginTest" finished-at="2025-04-10T12:46:34 IST" duration-ms="5073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- microsoftDispatchLoginTest -->
+        <test-method signature="microsoftSpicePortalLoginTest()[pri:0, instance:GTMTM.TestSuite.testClasses.MicrosoftLoginTest@2cac4385]" started-at="2025-04-10T12:46:29 IST" name="microsoftSpicePortalLoginTest" finished-at="2025-04-10T12:46:34 IST" duration-ms="5336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- microsoftSpicePortalLoginTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:GTMTM.TestSuite.testClasses.MicrosoftLoginTest@2cac4385]" started-at="2025-04-10T12:46:34 IST" name="quitDriver" finished-at="2025-04-10T12:46:34 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:GTMTM.TestSuite.testClasses.MicrosoftLoginTest@2cac4385]" started-at="2025-04-10T12:46:34 IST" name="quitDriver" finished-at="2025-04-10T12:46:34 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- GTMTM.TestSuite.testClasses.MicrosoftLoginTest -->
+    </test> <!-- MicrosoftLoginParallelTest -->
+  </suite> <!-- ParallelMethodsSuite -->
+</testng-results>

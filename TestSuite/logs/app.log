@@ -1,0 +1,58 @@
+2025-04-09 17:05:06 INFO  GTMTM.TestSuite.base.BasePage - Opening Browser
+2025-04-09 17:20:59 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Opening Browser
+2025-04-09 17:26:05 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Opening Browser
+2025-04-09 17:57:50 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Opening Browser
+2025-04-10 11:14:04 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Logger Started
+2025-04-10 11:14:05 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Opening Browser
+2025-04-10 11:16:00 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Logger Started
+2025-04-10 11:16:01 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Opening Browser
+2025-04-10 11:19:47 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Logger Started
+2025-04-10 11:19:48 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Opening Browser
+2025-04-10 11:21:11 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Logger Started
+2025-04-10 11:21:12 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Opening Browser
+2025-04-10 11:25:22 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Logger Started
+2025-04-10 11:25:23 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Opening Browser
+2025-04-10 11:30:15 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Logger Started
+2025-04-10 11:30:16 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Opening Browser
+2025-04-10 11:31:20 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Logger Started
+2025-04-10 11:31:21 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Opening Browser
+2025-04-10 11:54:06 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Logger Started
+2025-04-10 11:54:07 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Opening Browser
+2025-04-10 11:54:12 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Launched the Dispatch web application
+2025-04-10 11:54:44 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Logger Started
+2025-04-10 11:54:45 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Opening Browser
+2025-04-10 11:56:35 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Logger Started
+2025-04-10 11:56:36 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Opening Browser
+2025-04-10 11:56:41 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Launched the Dispatch web application
+2025-04-10 12:04:01 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Logger Started
+2025-04-10 12:04:02 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Opening Browser
+2025-04-10 12:04:07 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Launched the Dispatch web application
+2025-04-10 12:04:07 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Opening Browser
+2025-04-10 12:04:09 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Launched the Spice Portal web application
+2025-04-10 12:04:25 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Logger Started
+2025-04-10 12:04:26 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Opening Browser
+2025-04-10 12:04:30 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Launched the Dispatch web application
+2025-04-10 12:04:30 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Opening Browser
+2025-04-10 12:04:32 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Launched the Spice Portal web application
+2025-04-10 12:18:15 INFO  GTMTM.TestSuite.base.BasePage - [chrome] Browser launched for thread: Thread[#1,main,5,main]
+2025-04-10 12:18:15 INFO  GTMTM.TestSuite.base.BasePage - Opening Browser
+2025-04-10 12:18:19 INFO  GTMTM.TestSuite.base.BasePage - Launched the Dispatch web application
+2025-04-10 12:18:19 INFO  GTMTM.TestSuite.base.BasePage - Browser closed for thread: Thread[#1,main,5,main]
+2025-04-10 12:18:20 INFO  GTMTM.TestSuite.base.BasePage - [chrome] Browser launched for thread: Thread[#1,main,5,main]
+2025-04-10 12:18:20 INFO  GTMTM.TestSuite.base.BasePage - Opening Browser
+2025-04-10 12:18:24 INFO  GTMTM.TestSuite.base.BasePage - Launched the Spice Portal web application
+2025-04-10 12:18:24 INFO  GTMTM.TestSuite.base.BasePage - Browser closed for thread: Thread[#1,main,5,main]
+2025-04-10 12:34:36 INFO  GTMTM.TestSuite.base.BasePage - [chrome] Browser launched for thread: Thread[TestNG-test=MicrosoftLoginParallelTest-1,5,main]
+2025-04-10 12:34:36 INFO  GTMTM.TestSuite.base.BasePage - Opening Browser
+2025-04-10 12:34:43 INFO  GTMTM.TestSuite.base.BasePage - Launched the Dispatch web application
+2025-04-10 12:34:43 INFO  GTMTM.TestSuite.base.BasePage - Browser closed for thread: Thread[TestNG-test=MicrosoftLoginParallelTest-1,5,main]
+2025-04-10 12:34:45 INFO  GTMTM.TestSuite.base.BasePage - Launched the Spice Portal web application
+2025-04-10 12:34:45 INFO  GTMTM.TestSuite.base.BasePage - Browser closed for thread: Thread[TestNG-test=MicrosoftLoginParallelTest-2,5,main]
+2025-04-10 12:46:29 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - [chrome] Browser launched for thread: Thread[TestNG-test=MicrosoftLoginParallelTest-1,5,main]
+2025-04-10 12:46:29 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - [chrome] Browser launched for thread: Thread[TestNG-test=MicrosoftLoginParallelTest-2,5,main]
+2025-04-10 12:46:29 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Opening Browser
+2025-04-10 12:46:29 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Opening Browser
+2025-04-10 12:46:34 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Launched the Dispatch web application
+2025-04-10 12:46:34 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Browser closed for thread: Thread[TestNG-test=MicrosoftLoginParallelTest-1,5,main]
+2025-04-10 12:46:34 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Launched the Spice Portal web application
+2025-04-10 12:46:34 INFO  GTMTM.TestSuite.testClasses.MicrosoftLoginTest - Browser closed for thread: Thread[TestNG-test=MicrosoftLoginParallelTest-2,5,main]
