@@ -8,22 +8,24 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
-import GTMTM.TestSuite.resources.cookies.GetCookies;
+import GTMTM.TestSuite.resources.cookies.GetGTMTMCookies;
 
-public class BasePage {
+
+public class GTMTMBasePage {
     private static final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
     private final Logger logger = LogManager.getLogger(this.getClass());
+    public static WebDriverWait wait;
 
-    @BeforeMethod(alwaysRun = true)
+    @BeforeClass(alwaysRun = true)
     @Parameters("browser")
-    public void initializeDriver(@Optional("chrome") String browser) {
+    public void initializeDriver(@Optional("edge") String browser) {
         WebDriver webDriver;
-
         switch (browser.toLowerCase()) {
             case "chrome":
                 webDriver = new ChromeDriver();
@@ -40,12 +42,12 @@ public class BasePage {
 
         webDriver.manage().window().maximize();
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
         driver.set(webDriver);
+        wait = new WebDriverWait(webDriver, Duration.ofSeconds(10));
         logger.info("[" + browser + "] Browser launched for thread: " + Thread.currentThread().toString());
     }
 
-    @AfterMethod(alwaysRun = true)
+    @AfterClass(alwaysRun = true)
     public void quitDriver() {
         if (driver.get() != null) {
             driver.get().quit();
@@ -65,7 +67,7 @@ public class BasePage {
     public void launchUrlWithCookies(String url, String cookieFileName) throws Exception {
         getDriver().get(url);
         getDriver().manage().deleteAllCookies();
-        GetCookies cookies = new GetCookies(driver);
+        GetGTMTMCookies cookies = new GetGTMTMCookies(driver);
         cookies.getCookies(cookieFileName);
     }
 }

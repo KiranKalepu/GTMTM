@@ -16,10 +16,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
-public class GetCookies {
+public class GetGTMTMCookies {
 	private final WebDriver driver;
 	
-	public GetCookies(ThreadLocal<WebDriver> driver2)
+	public GetGTMTMCookies(ThreadLocal<WebDriver> driver2)
 	{
 		this.driver = driver2.get();
 	}

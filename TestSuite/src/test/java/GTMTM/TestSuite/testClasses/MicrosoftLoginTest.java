@@ -2,9 +2,9 @@ package GTMTM.TestSuite.testClasses;
 
 import org.testng.annotations.Test;
 
-import GTMTM.TestSuite.base.BasePage;
+import GTMTM.TestSuite.base.GTMTMBasePage;
 
-public class MicrosoftLoginTest extends BasePage{
+public class MicrosoftLoginTest extends GTMTMBasePage{
 
     @Test
     public void microsoftDispatchLoginTest() throws Exception

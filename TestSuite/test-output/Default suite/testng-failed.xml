@@ -3,12 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="GTMTM.TestSuite.testClasses.MicrosoftLoginTest">
+      <class name="GTMTM.TestSuite.testClasses.DispatchPortalTest">
         <methods>
-          <include name="microsoftLoginTest"/>
-          <include name="intializeDriver"/>
+          <include name="dispatchLoginTest"/>
+          <include name="dispatchNavigationTest"/>
+          <include name="setupDispatch"/>
+          <include name="quitDriver"/>
+          <include name="initializeDriver"/>
         </methods>
-      </class> <!-- GTMTM.TestSuite.testClasses.MicrosoftLoginTest -->
+      </class> <!-- GTMTM.TestSuite.testClasses.DispatchPortalTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
