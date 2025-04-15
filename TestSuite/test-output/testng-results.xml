@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-10T16:40:11 IST" name="Default suite" finished-at="2025-04-10T16:41:16 IST" duration-ms="64886">
+  <suite started-at="2025-04-15T10:14:16 IST" name="Default suite" finished-at="2025-04-15T10:14:47 IST" duration-ms="31322">
     <groups>
     </groups>
-    <test started-at="2025-04-10T16:40:11 IST" name="Default test" finished-at="2025-04-10T16:41:16 IST" duration-ms="64886">
+    <test started-at="2025-04-15T10:14:16 IST" name="Default test" finished-at="2025-04-15T10:14:47 IST" duration-ms="31322">
       <class name="GTMTM.TestSuite.testClasses.DispatchPortalTest">
-        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:GTMTM.TestSuite.testClasses.DispatchPortalTest@1cd201a8]" started-at="2025-04-10T16:40:11 IST" name="initializeDriver" finished-at="2025-04-10T16:40:14 IST" duration-ms="2944" status="PASS">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:GTMTM.TestSuite.testClasses.DispatchPortalTest@7db82169]" started-at="2025-04-15T10:14:16 IST" name="initializeDriver" finished-at="2025-04-15T10:14:19 IST" duration-ms="2975" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,23 +18,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="setupDispatch()[pri:0, instance:GTMTM.TestSuite.testClasses.DispatchPortalTest@1cd201a8]" started-at="2025-04-10T16:40:14 IST" name="setupDispatch" finished-at="2025-04-10T16:40:14 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="setupDispatch()[pri:0, instance:GTMTM.TestSuite.testClasses.DispatchPortalTest@7db82169]" started-at="2025-04-15T10:14:19 IST" name="setupDispatch" finished-at="2025-04-15T10:14:19 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDispatch -->
-        <test-method signature="dispatchLoginTest()[pri:0, instance:GTMTM.TestSuite.testClasses.DispatchPortalTest@1cd201a8]" started-at="2025-04-10T16:40:14 IST" name="dispatchLoginTest" finished-at="2025-04-10T16:41:09 IST" duration-ms="54705" status="PASS">
+        <test-method signature="dispatchLoginTest()[pri:0, instance:GTMTM.TestSuite.testClasses.DispatchPortalTest@7db82169]" started-at="2025-04-15T10:14:19 IST" name="dispatchLoginTest" finished-at="2025-04-15T10:14:43 IST" duration-ms="23651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dispatchLoginTest -->
-        <test-method is-config="true" signature="setupDispatch()[pri:0, instance:GTMTM.TestSuite.testClasses.DispatchPortalTest@1cd201a8]" started-at="2025-04-10T16:41:09 IST" name="setupDispatch" finished-at="2025-04-10T16:41:09 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupDispatch()[pri:0, instance:GTMTM.TestSuite.testClasses.DispatchPortalTest@7db82169]" started-at="2025-04-15T10:14:43 IST" name="setupDispatch" finished-at="2025-04-15T10:14:43 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDispatch -->
-        <test-method signature="dispatchNavigationTest()[pri:0, instance:GTMTM.TestSuite.testClasses.DispatchPortalTest@1cd201a8]" started-at="2025-04-10T16:41:09 IST" name="dispatchNavigationTest" finished-at="2025-04-10T16:41:15 IST" depends-on-methods="GTMTM.TestSuite.testClasses.DispatchPortalTest.dispatchLoginTest" duration-ms="5926" status="PASS">
+        <test-method signature="dispatchNavigationTest()[pri:0, instance:GTMTM.TestSuite.testClasses.DispatchPortalTest@7db82169]" started-at="2025-04-15T10:14:43 IST" name="dispatchNavigationTest" finished-at="2025-04-15T10:14:45 IST" depends-on-methods="GTMTM.TestSuite.testClasses.DispatchPortalTest.dispatchLoginTest" duration-ms="2780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dispatchNavigationTest -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:GTMTM.TestSuite.testClasses.DispatchPortalTest@1cd201a8]" started-at="2025-04-10T16:41:15 IST" name="quitDriver" finished-at="2025-04-10T16:41:16 IST" duration-ms="1258" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:GTMTM.TestSuite.testClasses.DispatchPortalTest@7db82169]" started-at="2025-04-15T10:14:45 IST" name="quitDriver" finished-at="2025-04-15T10:14:47 IST" duration-ms="1843" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->

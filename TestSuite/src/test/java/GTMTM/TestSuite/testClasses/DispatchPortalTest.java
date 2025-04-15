@@ -25,6 +25,8 @@ public class DispatchPortalTest extends GTMTMBasePage {
 	public void dispatchLoginTest() throws Exception {
 		new MicrosoftLoginTest().microsoftDispatchLoginTest();
 		Assert.assertEquals(getDriver().getTitle(), "Access2Care");
+		wait.until(ExpectedConditions.visibilityOf(dispatch.getUserName()));
+		Assert.assertTrue(dispatch.getUserName().getText().contains("seppa"));
 		getLogger().info("Login completed successfully");
 	}
 
@@ -36,20 +38,30 @@ public class DispatchPortalTest extends GTMTMBasePage {
 		List<String> actualTabList = new ArrayList<>();
 		for (WebElement tab : dispatch.getTabsList()) {
 			wait.until(ExpectedConditions.visibilityOf(tab));
-			actualTabList.add(tab.getText());
-			getLogger().info(tab.getText());
+			String currentTabName = tab.getText();
+			actualTabList.add(currentTabName);
+			getLogger().info(currentTabName);
 			tab.click();
-			if (tab.getText().equalsIgnoreCase("LYFT") || tab.getText().equalsIgnoreCase("OLOS")) {
+			if (currentTabName.equalsIgnoreCase("LYFT") || currentTabName.equalsIgnoreCase("OLOS")) {
+				wait.until(ExpectedConditions.elementToBeClickable(dispatch.getCloseIcon()));
 				dispatch.getCloseIcon().click();
 				wait.until(ExpectedConditions.visibilityOf(dispatch.getPageTitle()));
 				Assert.assertEquals(dispatch.getPageTitle().getText(), "Lyft trips");
-			} else if (tab.getText().equalsIgnoreCase("DISPATCH")) {
+			} else if (currentTabName.equalsIgnoreCase("DISPATCH")) {
 				wait.until(ExpectedConditions.visibilityOf(dispatch.getPageTitle()));
 				Assert.assertEquals(dispatch.getPageTitle().getText(), "Dispatch");
 			}
-			getLogger().info("Successfully navigated to " + tab.getText());
+			getLogger().info("Successfully navigated to " + currentTabName);
 		}
 		Assert.assertEquals(actualTabList, expectedTabsList);
 		getLogger().info("Successfully navigated to all tabs");
+	}
+	
+	@Test(dependsOnMethods = { "dispatchLoginTest" })
+	public void signOutTest()
+	{
+		getLogger().info("Started the signout test");
+		dispatch.clickOnSignOut();
+		getLogger().info("Signed out of Dispatch Application");
 	}
 }

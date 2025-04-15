@@ -40,5 +40,21 @@ public class DispatchPortal {
     	 return pageTitle;
      }
      
+     @FindBy(xpath = "//div //p")
+     private WebElement getUserName;
+     
+     public WebElement getUserName()
+     {
+    	 return getUserName;
+     }
+     
+     @FindBy(xpath = "//button[text()='Sign Out']")
+     private WebElement getSingOutButton;
+     
+     public void clickOnSignOut()
+     {
+    	 getSingOutButton.click();
+     }
+     
      
 }
